@@ -14,9 +14,9 @@ class Main extends Instrument{
     buttons.add(new Button(236, 100, 50, new Color(192, 0, 0), new Color(128, 0, 0))); //pause button
     
     sliders.add(new Slider(48, 195, 245, true)); //tempo slider
-    sliders.add(new Slider(8 + 24, 720, 277, true, 0.5, new Color(64, 64, 255))); //inst1 slider 
-    sliders.add(new Slider(336 + 24, 720, 279, true, 0.5, new Color(64, 255, 64)));  //inst2 slider
-    sliders.add(new Slider(666 + 24, 720, 277, true, 0.5, new Color(255, 255, 64)));  //beatMachine slider
+    sliders.add(new Slider(8 + 277/2 + 20, 720, 420, false, 0.5, new Color(64, 64, 255))); //inst1 slider 
+    sliders.add(new Slider(336 + 277/2 + 20, 720, 420, false, 0.5, new Color(64, 255, 64)));  //inst2 slider
+    sliders.add(new Slider(666 + 277/2 + 20, 720, 420, false, 0.5, new Color(255, 255, 64)));  //beatMachine slider
   }
   
   void myPrint(){
@@ -48,11 +48,11 @@ class Main extends Instrument{
   
     textSize(32);
     fill(0, 0, 255);
-    text("High", 8 + 118, 260);
+    text("Triangle", 8 + 98, 260);
     fill(16, 200, 16);
-    text("Bass", 336 + 118, 260);
+    text("Saw", 336 + 132, 260);
     fill(255, 255, 0);
-    text("Beat", 666 + 118, 260);
+    text("Beat", 666 + 122, 260);
   }
   
   void run(){
