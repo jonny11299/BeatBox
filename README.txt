@@ -1,5 +1,7 @@
 Welcome to BeatBox!
 
+For a more detailed overview of what BeatBox is and what it does, check out my Devpost https://devpost.com/software/beatbox-y59pum
+
 For Windows users, double click the app to run. This requires Java version 8.0 or later.
 For Mac/Linux users, you will need to install Processing version 3.0 or later as well as the "Sound" library. From there, double click on any of the source files, and run in Processing.
 If the application doesn't work, open in Processing.
