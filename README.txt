@@ -10,5 +10,6 @@ Sometimes the audio engine becomes too overloaded and crashes. There is no known
 
 
 This app was made on 11/4/2018 by Jonathan Bischoff for VandyHacksV.
+It uses the default "Sound" library in Processing 3.0, with additional functionality built around some of the classes, (for example my SmartEnv and SmartOsc classes that extend Env and Osc)
 
 Enjoy!
